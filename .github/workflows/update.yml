@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - update.ps1
+      - vpn.txt
       - direct.txt
       - .github/workflows/update.yml
 

@@ -1,0 +1,14 @@
+# Speedtest website, frontend assets, and Ookla-branded test servers
+speedtest.net
+r.cdnst.net
+cdn.ziffstatic.com
+ooklaserver.net
+
+# Twitch website, player, media, and the specific shared CDN endpoints it uses
+twitch.tv
+twitchcdn.net
+jtvnw.net
+ttvnw.net
+player.stats.live-video.net
+prod.ivs-device-config.live-video.net
+d3aqoihi2n8ty8.cloudfront.net

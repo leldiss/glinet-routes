@@ -1,4 +1,6 @@
-# Game domains excluded from the VPN list, one domain per line.
+# Domains excluded from the VPN list, one domain per line.
+2ip.ru
+2ip.io
 brawlstarsgame.com
 clashofclans.com
 clashroyaleapp.com

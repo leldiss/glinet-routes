@@ -23,9 +23,10 @@ if ('149.154.160.0/20' -notin $telegram -or 'telegram.org' -notin $telegram) {
 }
 
 $direct = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot 'direct.txt') | Where-Object { $_ -and -not $_.StartsWith('#') })
+$vpn = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot 'vpn.txt') | Where-Object { $_ -and -not $_.StartsWith('#') })
 $rules = [Collections.Generic.SortedSet[string]]::new([StringComparer]::Ordinal)
 $label = '[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?'
-foreach ($entry in ($inside + $telegram)) {
+foreach ($entry in ($inside + $telegram + $vpn)) {
     # The upstream .ua entry is a whole country zone, not a specific service.
     if ($entry -eq '.ua') { continue }
     if ($entry.Contains('/')) {

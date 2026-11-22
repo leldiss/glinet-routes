@@ -143,6 +143,8 @@ cats.com
 cbilling.eu
 cbilling.vip
 cdn-telegram.org
+cdn.akamai.steamstatic.com
+cdn.fastly.steamstatic.com
 cdn.web-platform.io
 cdn.ziffstatic.com
 cdnbunny.org
@@ -167,6 +169,8 @@ cisco.com
 cisecurity.org
 citrix.com
 clamav.net
+clan.akamai.steamstatic.com
+clan.fastly.steamstatic.com
 claude.ai
 claude.com
 clevelandclinic.org
@@ -462,6 +466,7 @@ iichan.hk
 ikea.com
 ilook.tv
 image.tmdb.org
+images.steamusercontent.com
 imgur.com
 important-stories.com
 incy.cc
@@ -907,6 +912,8 @@ sephora.com
 servarr.com
 severreal.org
 sfdcopens.com
+shared.akamai.steamstatic.com
+shared.fastly.steamstatic.com
 sharefile.com
 sharefile.io
 shikimori.me
@@ -968,8 +975,13 @@ startmail.com
 startpage.com
 static.lostfilm.top
 statology.org
+steamcommunity.com
 steamstat.info
 stel.com
+store.akamai.steamstatic.com
+store.fastly.steamstatic.com
+store.steampowered.com
+store.steamstatic.com
 strana.news
 strana.today
 strava.com

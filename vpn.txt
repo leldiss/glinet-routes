@@ -12,3 +12,17 @@ ttvnw.net
 player.stats.live-video.net
 prod.ivs-device-config.live-video.net
 d3aqoihi2n8ty8.cloudfront.net
+
+# Steam Store and Workshop web pages, static assets and preview images
+store.steampowered.com
+steamcommunity.com
+store.steamstatic.com
+images.steamusercontent.com
+cdn.akamai.steamstatic.com
+clan.akamai.steamstatic.com
+shared.akamai.steamstatic.com
+store.akamai.steamstatic.com
+cdn.fastly.steamstatic.com
+clan.fastly.steamstatic.com
+shared.fastly.steamstatic.com
+store.fastly.steamstatic.com

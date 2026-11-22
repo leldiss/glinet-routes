@@ -1,0 +1,5 @@
+# Game domains excluded from the VPN list, one domain per line.
+brawlstarsgame.com
+clashofclans.com
+clashroyaleapp.com
+haydaygame.com

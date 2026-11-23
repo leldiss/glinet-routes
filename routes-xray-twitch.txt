@@ -5461,6 +5461,7 @@ assetgroup.xyz
 assetmaxf.com
 assetminingco.com
 assets-wealth.click
+assets.twitch.tv
 assetsarch.com
 assetsbit.com
 assetscadialimited.org
@@ -13270,15 +13271,36 @@ d01.buzz
 d09.buzz
 d1.ebook.surf
 d1.ua
+d13j2sbsb4ncgj.cloudfront.net
+d1g1f25tn8m2e6.cloudfront.net
+d1m7jfoe9zdc1j.cloudfront.net
+d1mhjrowxxagfy.cloudfront.net
+d1ndex63qxojbr.cloudfront.net
+d1oca24q5dwo6d.cloudfront.net
+d1w2poirtb3as9.cloudfront.net
+d1xhnb4ptk05mw.cloudfront.net
+d1ymi26ma8va5x.cloudfront.net
 d2.ebook.surf
 d22.buzz
 d27.buzz
+d2aba1wr3818hz.cloudfront.net
 d2dj0qptshsals.cloudfront.net
+d2dylwb3shzel1.cloudfront.net
+d2e2de1etea730.cloudfront.net
+d2nvs31859zcd8.cloudfront.net
 d2selector.com
+d2um2qdswy1tb0.cloudfront.net
+d2vjef5jvl6bfs.cloudfront.net
+d2xmjdvx03ij56.cloudfront.net
 d3.ebook.surf
 d365.viptorpro.com
+d36nr0u3xmc4mm.cloudfront.net
 d38.buzz
+d3aqoihi2n8ty8.cloudfront.net
+d3c27h4odz752x.cloudfront.net
 d3company.com
+d3stzm2eumvgb4.cloudfront.net
+d3vd9lfkzbru3h.cloudfront.net
 d4.ebook.surf
 d4.rumassa.store
 d5.ebook.surf
@@ -13286,7 +13308,9 @@ d5.rumassa.store
 d6.ebook.surf
 d66.buzz
 d69.buzz
+d6d4ismr40iw.cloudfront.net
 d6hnm3uzmmstw.cloudfront.net
+d6tizftlrpuof.cloudfront.net
 d7.ebook.surf
 d77.buzz
 d8.ebook.surf
@@ -13592,6 +13616,7 @@ dd028.cserver.tv
 dd05.ru
 dd205.cserver.tv
 dd578.cserver.tv
+ddacn6pr5v0tl.cloudfront.net
 ddark24.biz
 ddd-putina-nado-unicht0zhit.z-zasrancy.giize.com
 ddd-putina-nado-unichtozhit.z-zasrancy.giize.com
@@ -15403,6 +15428,7 @@ dpr44.ru
 dpselection.net
 dpsu.gov.ua
 dq.ashoo.so
+dqrpb9wgowsf5.cloudfront.net
 dr-mamedov.ru
 dr-minasyan.ru
 dr-sommer.ru
@@ -15685,6 +15711,7 @@ ds-ulybka.ru
 ds.animerem.org
 ds.ashoo.cfd
 ds.indatab.org
+ds0h3roq6wcgc.cloudfront.net
 ds101spb.online
 ds103.ru
 ds11tgo.ru
@@ -15980,6 +16007,7 @@ dyatel-tuk-tuk.org
 dyatel.help
 dyhai.org
 dykishershni.com
+dykkng5hnh52u.cloudfront.net
 dyldy.serfilm.com
 dyly.ru
 dymkanasledie.ru
@@ -17692,7 +17720,12 @@ eu4.topsmarteuruich.cfd
 eu5.topsmarteuruich.cfd
 eu6.topsmarteuruich.cfd
 euc-conference.org
+euc12.playlist.ttvnw.net
+euc13.playlist.ttvnw.net
 eudaimonos.com
+eun11.playlist.ttvnw.net
+eun12.playlist.ttvnw.net
+eun13.playlist.ttvnw.net
 euneighbourseast.eu
 euobserver.com
 eupho.cc
@@ -18071,6 +18104,7 @@ exquisiteslave.com
 exseeding.com
 exseedinglygroup.com
 ext-ltd.com
+ext-twitch.tv
 ext.to
 ext.torrentbay.to
 extaz-by.com
@@ -24351,7 +24385,9 @@ h103.ru
 h104.ru
 h109.ru
 h1sy.ashoo.us
+h2-img.twitch.map.fastly.net
 h2.henchan.pro
+h2.twitch.map.fastly.net
 h2o-pomps.ru
 h2online.ru
 h2porn.com
@@ -28686,6 +28722,7 @@ jtstorm.life
 jttnndoor.top
 jttnnrain.top
 jttnnshell.pics
+jtvnw.net
 ju.metafilm7.buzz
 judaism.com
 judastruth.dreamwidth.org
@@ -28847,6 +28884,7 @@ k.protorrent.fun
 k.top4top.net
 k.twirpx.link
 k.twirpx.one
+k.twitchcdn.net
 k0.lovertab.net
 k0.rostab.info
 k01.herrutor.site
@@ -44145,6 +44183,7 @@ platzi-aihiprex-engine.com
 plavsksosh2.ru
 play.google.com
 playboy.com
+player.stats.live-video.net
 playhorizon.dev
 playlist.ttvnw.net
 playnintendo.com
@@ -46567,6 +46606,7 @@ procspb.ru
 procuror-osetia.ru
 prod-network-api.wbagora.com
 prod-prod.ru
+prod.ivs-device-config.live-video.net
 prodaem-xpasport.com
 prodairy.ru
 prodaja-prav-moskva.yaturistic.ru
@@ -56160,6 +56200,7 @@ stasy.net
 stat.hentaicomics.me
 stat.sexcomics.one
 statebuilding.tw
+static-cdn.jtvnw.net
 static.bitcheese.net
 static.f-list.net
 static.williamhill.com
@@ -60891,6 +60932,11 @@ twirpx.club
 twirpx.co
 twirpx.com
 twirpx.org
+twitch.map.fastly.net
+twitch.tv
+twitchcdn.net
+twitchcon.com
+twitchsvc.net
 twitpic.com
 twitter.biz
 twitter.com
@@ -70933,6 +70979,7 @@ www.tvua.eu
 www.twaku.com
 www.twistedporn.com
 www.twistys.com
+www.twitch.tv
 www.twpornstars.com
 www.txnhh.com
 www.txvhh.com
@@ -74680,6 +74727,7 @@ zzztube.tv
 3.72.96.17/32
 3.72.131.77/32
 3.72.140.173/32
+3.72.149.63/32
 3.72.232.226/32
 3.72.233.24/32
 3.73.12.81/32
@@ -75449,6 +75497,7 @@ zzztube.tv
 3.174.46.13/32
 3.174.46.14/32
 3.174.46.22/32
+3.174.46.33/32
 3.174.46.34/32
 3.174.46.36/32
 3.174.46.51/32
@@ -79415,6 +79464,7 @@ zzztube.tv
 13.249.125.75/32
 13.249.125.113/32
 13.249.125.120/32
+13.249.228.63/32
 13.250.87.112/32
 13.251.122.10/32
 13.251.202.185/32
@@ -94498,6 +94548,7 @@ zzztube.tv
 52.222.136.7/32
 52.222.136.22/32
 52.222.136.26/32
+52.222.136.45/32
 52.222.136.77/32
 52.222.136.82/32
 52.222.136.94/32
@@ -112043,6 +112094,7 @@ zzztube.tv
 108.138.7.101/32
 108.138.7.109/32
 108.138.7.113/32
+108.138.7.121/32
 108.138.7.124/32
 108.138.7.126/32
 108.138.7.128/32

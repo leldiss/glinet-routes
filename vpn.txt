@@ -26,3 +26,30 @@ cdn.fastly.steamstatic.com
 clan.fastly.steamstatic.com
 shared.fastly.steamstatic.com
 store.fastly.steamstatic.com
+
+# AnimeJoy, its mirrors, the embedded player and media host
+animejoy.ru
+animejoy.su
+ajsubs.ru
+animejoya.ru
+otakujoy.fun
+firsts3.ru
+
+# AnimeVost and AniLiberty website and assets
+animevost.org
+aniliberty.top
+anilibria.top
+
+# BongaCams and XVideos mirrors and media domains, plus HentaiMama
+bonga22.com
+bongacams.com
+bcicdn.com
+bcrncdn.com
+bcvcdn.com
+bgicdn.com
+xvideos.com
+xvideos-cdn.com
+xv-ru.com
+xvideos-ar.com
+xvideos-india.com
+hentaimama.io

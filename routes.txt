@@ -37,6 +37,7 @@ ahrefs.com
 ai-chat.bsg.brave.com
 ai.com
 aircanada.com
+ajsubs.ru
 akc.org
 all3dp.com
 allegro.pl
@@ -52,7 +53,9 @@ analog.com
 andrevi.ch
 anidub.com
 anilib.me
+aniliberty.top
 anilibria.org
+anilibria.top
 anilibria.tv
 anilibria.uno
 anilibria.wtf
@@ -61,7 +64,11 @@ anime-portal.su
 animebest.org
 animedia.tv
 animego.org
+animejoy.ru
+animejoy.su
+animejoya.ru
 animespirit.ru
+animevost.org
 anistar.org
 anistars.ru
 annas-archive.org
@@ -105,16 +112,22 @@ bbc.co.uk
 bbc.com
 bbci.co.uk
 bcbits.com
+bcicdn.com
+bcrncdn.com
+bcvcdn.com
 bell-sw.com
 bellingcat.com
 bestbuy.com
 bestchange.ru
+bgicdn.com
 bihus.info
 bitdefender.com
 bitnami.com
 blackseanews.net
 blinkshot.io
 bluehost.com
+bonga22.com
+bongacams.com
 booktracker.org
 boominfo.org
 booth.pm
@@ -333,6 +346,7 @@ filmix.day
 filmix.fan
 filmix.fm
 filmix.la
+firsts3.ru
 fivetran.com
 flibusta.is
 flibusta.net
@@ -434,6 +448,7 @@ hdrzk.org
 hdstudio.org
 healthline.com
 hentai-foundry.com
+hentaimama.io
 herokucdn.com
 hetzner.com
 hitomi.la
@@ -719,6 +734,7 @@ opentrackr.org
 opposition-news.com
 oracle.com
 oraclecloud.com
+otakujoy.fun
 ovd.info
 ovd.legal
 ovd.news
@@ -1200,7 +1216,9 @@ xrite.com
 xsts.auth.xboxlive.com
 xtracloud.net
 xv-ru.com
+xvideos-ar.com
 xvideos-cdn.com
+xvideos-india.com
 xvideos.com
 yande.re
 yeggi.com

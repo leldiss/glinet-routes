@@ -1,0 +1,42 @@
+name: Update Xray destination list
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - update_xray.py
+      - .github/workflows/update-xray.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-router-subscription
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Export Xray destination categories
+        shell: bash
+        run: |
+          archive="$RUNNER_TEMP/sing-box.tar.gz"
+          curl --fail --silent --show-error --location --retry 3 -o "$archive" \
+            https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz
+          echo "699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968  $archive" | sha256sum --check
+          tar -xzf "$archive" -C "$RUNNER_TEMP" sing-box-1.14.4-linux-amd64/sing-box
+          python3 update_xray.py --sing-box "$RUNNER_TEMP/sing-box-1.14.4-linux-amd64/sing-box"
+      - name: Publish subscription
+        run: |
+          git add routes-xray.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Xray destination list"
+          git push

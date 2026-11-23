@@ -18,3 +18,16 @@
 Опубликуйте файлы в отдельном публичном репозитории GitHub на ветке `main`. Включите GitHub Actions. Откройте `routes.txt` на GitHub и скопируйте адрес кнопки **Raw**. В панели GL.iNet выберите немецкий профиль, нужный клиент и **Specified Domain / IP List → Subscription URL**. Вставьте адрес, нажмите **Detect** и **Apply All Changes**. Для игрового ПК оставьте включённым **Allow Non-VPN Traffic** и исключите ПК из других общих правил VPN. Для доменных правил используйте DNS роутера на этом ПК.
 
 Локально сборка запускается командой `pwsh -File update.ps1` в PowerShell 7. Для ручной проверки в GL.iNet можно вставить содержимое готового `routes.txt` в режиме **Manual**.
+
+## Подписка по исходным правилам Xray
+
+[Подписка Xray для GL.iNet](https://raw.githubusercontent.com/leldiss/glinet-routes/main/routes-xray.txt). Для перехода замените URL в существующем туннеле. Для возврата используйте [прежнюю подписку](https://raw.githubusercontent.com/leldiss/glinet-routes/main/routes.txt).
+
+В подписке Xray действуют два явных правила для `anthropic.com` и `claude.ai` и следующие категории из одной ревизии открытой базы Runet Freedom. Файлы `vpn.txt` и `direct.txt` относятся к прежней подписке. [Источник категорий](https://github.com/runetfreedom/russia-v2ray-rules-dat)
+
+- Домены из `ru-blocked`, `youtube`, `meta`, `twitter`, `openai`, `discord`, `telegram` и `whatsapp`.
+- IPv4-сети из `re-filter`, `ru-blocked` и `ru-blocked-community`. Пересекающиеся диапазоны объединяются с сохранением точного множества адресов. Из него вычитаются служебные сети категории `private`, для которых в исходной конфигурации действует более приоритетное правило блокировки.
+
+GL.iNet сопоставляет соединения по назначению. Игровой сервер с адресом внутри одной из перечисленных сетей также попадёт в VPN. Для остальных адресов действует обычная политика роутера. В текстовом файле представлены доменные имена и IPv4. Регулярные выражения, поиск по части имени, целые доменные зоны, IPv6, правила по портам и протоколам, блокировка и переключение выходов Xray в этот формат не перенесены. Точное имя из Xray записывается в формате обычного домена GL.iNet. [Формат подписки GL.iNet](https://docs.gl-inet.com/router/en/4/tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file/)
+
+Для локальной пересборки этой подписки запустите `python update_xray.py --sing-box <путь-к-sing-box>`. Протестировано с sing-box 1.14.4 и Python 3.12.

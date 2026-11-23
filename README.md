@@ -31,3 +31,11 @@
 GL.iNet сопоставляет соединения по назначению. Игровой сервер с адресом внутри одной из перечисленных сетей также попадёт в VPN. Для остальных адресов действует обычная политика роутера. В текстовом файле представлены доменные имена и IPv4. Регулярные выражения, поиск по части имени, целые доменные зоны, IPv6, правила по портам и протоколам, блокировка и переключение выходов Xray в этот формат не перенесены. Точное имя из Xray записывается в формате обычного домена GL.iNet. [Формат подписки GL.iNet](https://docs.gl-inet.com/router/en/4/tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file/)
 
 Для локальной пересборки этой подписки запустите `python update_xray.py --sing-box <путь-к-sing-box>`. Протестировано с sing-box 1.14.4 и Python 3.12.
+
+## Видеоплеер Twitch через VPN, BongaCams и XVideos напрямую
+
+[Адрес тестовой подписки](https://raw.githubusercontent.com/leldiss/glinet-routes/main/routes-xray-twitch.txt). Для проверки замените URL в том же туннеле и оставьте **Allow Non-VPN Traffic** включённым.
+
+К списку Xray добавлены `hls.live-video.net`, `hls.ttvnw.net` и `playlist.ttvnw.net`. Домены BongaCams и XVideos, известные зеркала и CDN исключены. При каждой сборке из VPN-подсетей вычитаются конкретные IPv4-адреса этих сайтов по DNS. Сохраняются также проверенные адреса основных узлов из РФ. На общем IP такое исключение может затронуть другие сайты, а новое зеркало или региональный узел CDN может потребовать дополнительной записи.
+
+Вариант пересобирается после ежедневного обновления списка Xray. Локальный запуск — `python -B update_twitch_routes.py`. Для возврата к исходным категориям используйте [чистую подписку Xray](https://raw.githubusercontent.com/leldiss/glinet-routes/main/routes-xray.txt).

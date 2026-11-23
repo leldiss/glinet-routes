@@ -1521,6 +1521,7 @@
 40sevens.top
 41.vsetam.net.ru
 41209.ru
+4130853292bb.j.cloudfront.hls.ttvnw.net
 41f.buzz
 41laki.com
 41t.click
@@ -2095,6 +2096,7 @@
 99torrents.club
 99u.click
 9ai99.com
+9c6ee9e29d42.j.cloudfront.hls.ttvnw.net
 9ch.site
 9cheki.info
 9ci.li
@@ -14148,6 +14150,7 @@ dgap.org
 dgb1belovo.ru
 dgb3-74.ru
 dgbkam.ru
+dgeft87wbj63p.cloudfront.net
 dgg1.xyz
 dggepastore.ru
 dggy.club
@@ -60347,6 +60350,7 @@ ttr21.pw
 ttr57.site
 ttraffer.com
 ttv.run
+ttvnw.net
 ttwstatic.com
 tu.casmr.ru
 tu.casvn.ru

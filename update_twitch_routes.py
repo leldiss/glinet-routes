@@ -9,7 +9,13 @@ from update_xray import route_networks
 
 
 ROOT = Path(__file__).resolve().parent
-TWITCH_VIDEO = {"hls.live-video.net", "hls.ttvnw.net", "playlist.ttvnw.net"}
+TWITCH_VIDEO = {
+    "ttvnw.net", "hls.ttvnw.net", "playlist.ttvnw.net", "hls.live-video.net",
+    # Media hosts observed on the live player and on a recorded broadcast.
+    "9c6ee9e29d42.j.cloudfront.hls.ttvnw.net",
+    "4130853292bb.j.cloudfront.hls.ttvnw.net",
+    "dgeft87wbj63p.cloudfront.net",
+}
 DIRECT_DOMAINS = {
     "bonga22.com", "bongacams.com", "bcicdn.com", "bcrncdn.com", "bcvcdn.com",
     "bgicdn.com", "i.edge3710.net", "xvideos.com", "xvideos-cdn.com",
